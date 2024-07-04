@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4D04E;
+    font-family: 'Figtree', sans-serif;
+    height: 100vh;
+}
+
+.card {
+    max-width: 400px; ;
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-inline: 2rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+    border: 2px solid #333;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.learning-label {
+    background-color: #F4D04E;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: 900;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.card-date {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.card-title:hover {
+    color: #F4D04E;
+    cursor: pointer;
+}
+
+.card-copy {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    color: #7F7F7F;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+
+
+
